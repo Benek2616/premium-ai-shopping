@@ -5,6 +5,8 @@ Analizuje produkt, cenę i Twój powód zakupu, pomaga odróżnić prawdziwą po
 
 > „Kupuj mniej. Kupuj lepiej. Oszczędzaj więcej.”
 
+**Live preview:** [otwórz index.html](https://github.com/Benek2616/premium-ai-shopping/blob/main/index.html) (możesz włączyć GitHub Pages)
+
 ---
 
 ## Główne funkcje
@@ -34,6 +36,8 @@ Co miesiąc dostajesz czytelne podsumowanie:
 - ile udało Ci się zaoszczędzić
 - z jakich zakupów zrezygnowałeś dzięki Premium AI
 
+Szczegóły funkcji: [docs/FUNKCJE.md](docs/FUNKCJE.md)
+
 ---
 
 ## Cennik (testowy)
@@ -43,6 +47,8 @@ Co miesiąc dostajesz czytelne podsumowanie:
 | **Darmowy**       | 0 zł          | Podstawowa analiza zakupów                |
 | **Premium miesięczny** | 9,99 zł     | Pełny dostęp + personalizacja + podsumowania |
 | **Premium roczny**    | 79,99 zł    | Najlepsza wartość (ok. 6,67 zł / miesiąc) |
+
+Więcej o cenniku: [docs/CENNIK.md](docs/CENNIK.md)
 
 ---
 
@@ -54,10 +60,24 @@ Co miesiąc dostajesz czytelne podsumowanie:
 
 ---
 
+## Struktura repozytorium
+
+```
+premium-ai-shopping/
+├── README.md          ← ten plik
+├── index.html         ← prosta landing page
+├── LICENSE            ← MIT
+└── docs/
+    ├── FUNKCJE.md     ← szczegółowy opis funkcji
+    └── CENNIK.md      ← szczegóły cennika
+```
+
+---
+
 ## Status projektu
 
 To repozytorium to **początek** projektu Premium AI.  
-Obecnie zawiera opis produktu i wizję.  
+Obecnie zawiera opis produktu, cennik i landing page.  
 W kolejnych krokach pojawią się:
 
 - [ ] Interfejs czatu z AI
@@ -80,8 +100,7 @@ W kolejnych krokach pojawią się:
 
 ## Licencja
 
-Projekt prywatny / w trakcie rozwoju.  
-Wszelkie prawa zastrzeżone.
+MIT License – zobacz plik [LICENSE](LICENSE).
 
 ---
 
